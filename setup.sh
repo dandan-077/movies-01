@@ -11,4 +11,4 @@ fi
 pip3 install -r requirements.txt
 
 # Run the Streamlit app
-python3 -m streamlit run app.py --server.port $PORT --server.headless true
+streamlit run app.py --server.port $PORT
