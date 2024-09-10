@@ -1,0 +1,15 @@
+{
+    "builds": [
+      {
+        "src": "setup.sh",
+        "use": "@vercel/static-build"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "setup.sh"
+      }
+    ]
+  }
+  
